@@ -11,6 +11,15 @@ Este projeto é uma aplicação web que gera relatórios financeiros utilizando 
 </p>
 </br>
 
+</br>
+<p align="center">
+  <kbd>
+ <img width="800" style="border-radius: 10px" height="400" src="assets/report2.png" alt="Intro"> 
+  </kbd>
+  </br>
+</p>
+</br>
+
 
 ### ⌨ Tecnologias utilizadas
 
