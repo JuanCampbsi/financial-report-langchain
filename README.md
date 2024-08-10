@@ -1,27 +1,18 @@
-## Gerador de relatório financeiro
+## Financial Report Generator
 
-Este projeto é uma aplicação web que gera relatórios financeiros utilizando LangChain e Streamlit, integrando a API da OpenAI para fornecer análises de linguagem natural. A aplicação permite que os usuários gerem relatórios financeiros detalhados com base em dados fornecidos, aproveitando o poder dos Modelos de Linguagem de Grande Escala (LLM).
-
-</br>
-<p align="center">
-  <kbd>
- <img width="800" style="border-radius: 10px" height="400" src="assets/report1.png" alt="Intro"> 
-  </kbd>
-  </br>
-</p>
-</br>
+This project is a web application that generates financial reports using LangChain and Streamlit, integrating OpenAI’s API to provide natural language analysis. The application allows users to generate detailed financial reports based on provided data, leveraging the power of Large Scale Language Models (LLM).
 
 </br>
 <p align="center">
   <kbd>
- <img width="800" style="border-radius: 10px" height="400" src="assets/report3.png" alt="Intro"> 
+ <img width="800" style="border-radius: 10px" height="400" src="assets/screen.png" alt="Intro"> 
   </kbd>
   </br>
 </p>
 </br>
 
 
-### ⌨ Tecnologias utilizadas
+### ⌨ Technologies used
 
 -   [langchain_openai](https://python.langchain.com/v0.2/docs/integrations/platforms/openai/) - version 0.1.16
 -   [langchain_experimental](https://pypi.org/project/langchain-experimental/) - version 0.0.62
@@ -31,26 +22,26 @@ Este projeto é uma aplicação web que gera relatórios financeiros utilizando 
 -   [PyYAML](https://pypi.org/project/PyYAML/) - version 6.0.1
  
 
-### ⌨ Instalação
-Para utilizá-lo, é necessário clonar o repositório, instalar as dependências e executar o projeto. Além disso é preciso criar um arquivo .yaml e adicionar sua chave OPENAI_API_KEY, caso tenha dúvidas acesse [Open AI](https://platform.openai.com/docs/guides/text-generation).
+### ⌨ Installation
+To use it, you need to clone the repository, install the dependencies and run the project. You also need to create a .yaml file and add your OPENAI_API_KEY key. If you have any questions, access [Open AI](https://platform.openai.com/docs/guides/text-generation).
 
 ```bash
-# Abra terminal/cmd e depois clone este repositório
+# Open terminal/cmd and then clone this repository
 $ git clone https://github.com/JuanCampbsi/financial-report-langchain.git
 
-# Acesse a pasta do projeto no terminal/cmd
+# Access the project folder in the terminal/cmd
 $ cd financial-report-langchain
 
-# Crie um ambiente virtual
+# Create a virtual environment
 $ pip install virtualenv
 
-# Ative seu ambiente virtual
+# Active your virtual environment
 $ source venv/bin/activate
 
-# Instale as ferramentas necessárias
+# Install the necessary tools
 $ pip install -r requirements.txt
 
-# Execute o comando no terminal
+# Run the command in the terminal
 $ streamlit run app.py                               
 
 ```
