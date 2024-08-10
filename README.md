@@ -32,7 +32,7 @@ Este projeto é uma aplicação web que gera relatórios financeiros utilizando 
  
 
 ### ⌨ Instalação
-Para utilizá-lo, é necessário clonar o repositório, instalar as dependências e executar o projeto.
+Para utilizá-lo, é necessário clonar o repositório, instalar as dependências e executar o projeto. Além disso é preciso criar um arquivo .yaml e adicionar sua chave OPENAI_API_KEY, caso tenha dúvidas acesse [Open AI](https://platform.openai.com/docs/guides/text-generation).
 
 ```bash
 # Abra terminal/cmd e depois clone este repositório
